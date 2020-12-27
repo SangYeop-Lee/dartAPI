@@ -1,0 +1,52 @@
+form > * {
+	display : inline-block;
+	padding : 0 10px;
+	padding-top: 20px;
+}
+
+form {
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* To see the outline of the form */
+    padding: 1em;
+	position: relative;
+}
+
+label {
+    /* To make sure that all label have the same size and are properly align */
+    display: inline-block;
+    width: 90px;
+		padding-right: 10px;
+    text-align: right;
+}
+
+input:focus, select:focus {
+	border: none;
+	border-bottom: 1px solid #CCC;
+}
+
+select, input {
+	height : 1.2rem;
+	border: none;
+	border-bottom: 1px solid #CCC;
+	background-color : #FFF;
+	outline: none;
+}
+
+option {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+}
+
+select {
+	width : 70px;
+}
+
+option {
+	height: 40px;
+}
+
+input {
+	auto
+}

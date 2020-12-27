@@ -1,0 +1,7 @@
+<a href="/"><h1>Home</h1></a>
+
+<ul>
+  {{#each reports}}
+		<li><a href="http://dart.fss.or.kr/dsaf001/main.do?rcpNo={{this.rceptCode}}" target="_blank">{{ this.corpName }}</a></li>
+	{{/each}}
+</ul>

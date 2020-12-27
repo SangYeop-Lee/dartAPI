@@ -1,0 +1,14 @@
+1. Corporations
+{
+	corpName : ,
+	corpCode : 
+}
+
+2. Reports
+{
+	corpCode : ,
+	yearAndQuarter : ,
+	rceptCode : ,
+	isDownloaded : ,
+	content :
+}
